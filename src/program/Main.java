@@ -1,5 +1,8 @@
 package program;
 
+import static program.algorithms.BubbleSort.bubbleSort;
+import static program.algorithms.QuickSort.quickSort;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -21,20 +24,22 @@ public class Main {
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i]+", ");
         }
-    }
-    private static int[] bubbleSort(int[] v) {
-        for (int i = 0; i < v.length; i++) {
-            for (int j = 0; j < v.length - i -1; j++) {
-                if (v[j] > v[j+1]) {
-                    int aux = v[j];
-                    v[j] = v[j+1];
-                    v[j+1] = aux;
-                }
-            }
-        }return v;
-    }
-   // --------------------------------------------------------------------------
+        System.out.println();
 
-    //algoritmo quicksort
+        // --------------------------------------------------------------------------
 
-}
+        //algoritmo quicksort
+
+        quickSort(a,0,a.length -1);
+        quickSort(b,0,b.length - 1);
+        System.out.print("quickSort: ");
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i]+", ");
+        }
+        System.out.println();
+        System.out.print("quickSort: ");
+        for (int i = 0; i < b.length; i++) {
+            System.out.print(b[i]+", ");
+        }
+    }
+    }
