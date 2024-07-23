@@ -11,3 +11,5 @@
 
 ### Quick Sort é um algoritmo de ordenação eficiente que utiliza a técnica de divisão e conquista para ordenar elementos. Ele é amplamente usado devido à sua velocidade e eficiência em ordenar grandes conjuntos de dados. Selecionando um pivô e fragmentando a lista a coleção de dados até todos os dados estarem devidamente organizados, se torna muito eficiente em grandes conjuntos de dados.
 ### É um algoritmo de difícil entendimento, contendo vários conceitos como a recursão e o particionamento e podendo chegar a uma complexidade O(n 2), caso o pivô seja mal escolhido.
+
+## Merge sort
