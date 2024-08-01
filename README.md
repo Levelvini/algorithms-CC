@@ -14,5 +14,4 @@
 
 ## Merge sort
 
-## sendo mais um algoritmo de ordenação de vetores, o merge sorte é feito em duas etapas, divisão e intercalação/união, sendo um algoritmo de desempenho mediano. utilizando o conceito de recurssividade, sendo mais utilizado para fins didaticos.
-## diferente do bubble sort, o merge sort é melhor utilizado em vetores grandes ou vetores aleatórios.
+## sendo mais um algoritmo de ordenação de vetores, o merge sorte é feito em duas etapas, divisão e intercalação/união, sendo um algoritmo de desempenho mediano. utilizando o conceito de recurssividade, sendo mais utilizado para fins didaticos. Diferente do bubble sort, o merge sort é melhor utilizado em vetores grandes ou vetores aleatórios.
