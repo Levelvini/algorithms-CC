@@ -13,3 +13,6 @@
 ### É um algoritmo de difícil entendimento, contendo vários conceitos como a recursão e o particionamento e podendo chegar a uma complexidade O(n 2), caso o pivô seja mal escolhido.
 
 ## Merge sort
+
+## sendo mais um algoritmo de ordenação de vetores, o merge sorte é feito em duas etapas, divisão e intercalação/união, sendo um algoritmo de desempenho mediano. utilizando o conceito de recurssividade, sendo mais utilizado para fins didaticos.
+## diferente do bubble sort, o merge sort é melhor utilizado em vetores grandes ou vetores aleatórios.
